@@ -21,3 +21,7 @@ void testPairToNumber(
     std::cout << "Got pair number " << pairNumber << std::endl;
     assert(pairNumber == expectedPairNumber);
 }
+
+void printColorCodeManual() {
+    std::cout << TelCoColorCoder::GetColorCodeReferenceManual() << std::endl;
+}
